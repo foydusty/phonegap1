@@ -6,10 +6,7 @@
 }    
 
 .ui-page-theme-a .ui-btn {
-  background-color: #BEA586;
-  border-color: #8E5B3E;
-  color: #FCFBE3;
-  text-shadow: 0 1px 0 #6B573D;
+
 }
 
 .image-resp {
@@ -21,4 +18,37 @@
 .image-resp img {
 	width: 95%;
 	height: auto;	
+}
+
+.ui-footer {
+  position: absolute;
+  width: 100%;
+  bottom:0;
+  left: 0;
+}
+
+.ui-page-theme-a .ui-btn:active {
+	
+}
+
+.ui-page-theme-a .ui-btn, html .ui-bar-a .ui-btn, html .ui-body-a .ui-btn, html body .ui-group-theme-a .ui-btn, html head+body .ui-btn.ui-btn-a, .ui-page-theme-a .ui-btn:visited, html .ui-bar-a .ui-btn:visited, html .ui-body-a .ui-btn:visited, html body .ui-group-theme-a .ui-btn:visited, html head+body .ui-btn.ui-btn-a:visited {
+	background-color: #BEA586;
+  border-color: #8E5B3E;
+  color: #FCFBE3;
+  text-shadow: 0 1px 0 #6B573D;
+}
+
+.ui-page-theme-a .ui-btn:hover, html .ui-bar-a .ui-btn:hover, html .ui-body-a .ui-btn:hover, html body .ui-group-theme-a .ui-btn:hover, html head+body .ui-btn.ui-btn-a:hover {
+		background-color: #9C876D;
+  border-color: #8E5B3E;
+  color: #FCFBE3;
+  text-shadow: 0 1px 0 #6B573D;
+}
+
+.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper{
+	background-color: #9E8D74;
+}
+
+body, input, select, textarea, button, .ui-btn {
+	line-height: 2.3em;	
 }
