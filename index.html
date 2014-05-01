@@ -1,0 +1,95 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery Mobile Web App</title>
+
+<link href="jquery.mobile.structure-1.4.2.min.css" rel="stylesheet" type="text/css">
+<link href="jquery.mobile.theme-1.4.2.css" rel="stylesheet" type="text/css">
+<link href="jquery.mobile.icons-1.4.2.min.css" rel="stylesheet" type="text/css">
+<link href="jquery.mobile.inline-png-1.4.2.min.css" rel="stylesheet" type="text/css">
+<link href="mystyle.css" rel="stylesheet" type="text/css">
+<script src="jquery-1.11.0.min.js" type="text/javascript"></script>
+<script src="jquery.mobile-1.4.2.min.js" type="text/javascript"></script>
+
+</head> 
+<body> 
+
+<div data-role="page" id="page">
+	<div data-role="header">
+		<h1>Coffee Lounge</h1>
+        <a href="tel:5558385679">Call Now!</a>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#page2">Menu</a></li>
+            <li><a href="#page3">Our Location</a></li>
+			<li><a href="#page4">Specials</a></li>
+		</ul>		
+	</div>
+	<div data-role="footer">
+		<h4>Quality Coffee, Day or Night</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page2">
+	<div data-role="header">
+		<h1>Coffee Menu</h1>
+	</div>
+	<div data-role="content">
+	  <div data-role="collapsible-set">
+	    <div data-role="collapsible">
+	      <h3>Classic Drinks</h3>
+	      <ul>
+          <li>Caffe Mocha | $3.00+</li>
+          <li>Caffe Latte | $2.50+</li>
+          <li>Caffe Breve | $2.75+</li>
+          <li>Cappuccino | $2.50+</li>
+          <li>Americano | $1.50+</li>
+          </ul>
+        </div>
+	    <div data-role="collapsible" data-collapsed="true">
+	      <h3>Specialty Drinks</h3>
+	      <ul>
+          	<li>Contentment | $3.50+</li>
+            <li>Peace | $3.50+</li>
+            <li>Cloud 9 | $3.50+</li>
+          </ul>
+        </div>
+</div>	
+			
+	</div>
+	<div data-role="footer">
+		<h4>Quality Coffee, Day or Night</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page3">
+	<div data-role="header">
+		<h1>Our Location</h1>
+	</div>
+	<div data-role="content">	
+    	<div class="image-resp">
+		<img alt="Coffee Location" src="images/coffee seattle.png" height="541" width="831" />	
+        </div>	
+	</div>
+	<div data-role="footer">
+		<h4>Quality Coffee, Day or Night</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page4">
+	<div data-role="header">
+		<h1>Daily Specials</h1>
+	</div>
+	<div data-role="content">	
+		<p>This area is coming soon! Please give us a call though and we would be more than happy to tell you about the special of the day!</p>	
+        <a href="tel:5558385679">Call Now!</a>
+	</div>
+	<div data-role="footer">
+		<h4>Quality Coffee, Day or Night</h4>
+	</div>
+</div>
+
+</body>
+</html>

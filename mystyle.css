@@ -1,0 +1,24 @@
+.ui-page-theme-a .ui-bar-inherit {
+  background-color: #A2825C;
+  border-color: #8E5B3E;
+  color: #FCFBE3;
+  text-shadow: 0 1px 0 #6B573D;
+}    
+
+.ui-page-theme-a .ui-btn {
+  background-color: #BEA586;
+  border-color: #8E5B3E;
+  color: #FCFBE3;
+  text-shadow: 0 1px 0 #6B573D;
+}
+
+.image-resp {
+	display:block;
+	width: 100%;
+	height: auto;	
+}
+
+.image-resp img {
+	width: 95%;
+	height: auto;	
+}
